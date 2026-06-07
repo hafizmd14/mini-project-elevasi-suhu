@@ -1,6 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    ...
+    <link rel="stylesheet" href="style.css">
+</head>
+    body {
+    background: #f1f5f9 !important;
+    font-family: "Segoe UI", Arial, sans-serif !important;
+}
+    #notebook-container,
+.notebook-container,
+.jp-Notebook {
+    max-width: 1400px !important;
+    margin: 30px auto !important;
+    padding: 40px !important;
+    background: white !important;
+    border-radius: 20px !important;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1) !important;
+}
+
+/* ===== Judul ===== */
+
+h1 {
+    color: #1e40af !important;
+    font-size: 2.5rem !important;
+    text-align: center !important;
+    border-bottom: 4px solid #3b82f6 !important;
+    padding-bottom: 15px !important;
+    margin-bottom: 30px !important;
+}
+
+h2 {
+    color: #2563eb !important;
+    border-left: 6px solid #2563eb !important;
+    padding-left: 12px !important;
+    margin-top: 40px !important;
+}
+
+h3 {
+    color: #334155 !important;
+}
+
+/* ===== Paragraf ===== */
+
+p {
+    line-height: 1.8 !important;
+    text-align: justify !important;
+    color: #374151 !important;
+}
+
+/* ===== Gambar ===== */
+
+img {
+    display: block !important;
+    max-width: 100% !important;
+    margin: 20px auto !important;
+    border-radius: 15px !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15) !important;
+}
+
+/* ===== Tabel ===== */
+
+table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin-top: 20px !important;
+}
+
+th {
+    background: #1e40af !important;
+    color: white !important;
+    padding: 12px !important;
+}
+
+td {
+    padding: 12px !important;
+    border: 1px solid #cbd5e1 !important;
+}
+
+/* ===== Code Block ===== */
+
+pre {
+    border-radius: 12px !important;
+    padding: 15px !important;
+    overflow-x: auto !important;
+}
+
+/* ===== Output Plot ===== */
+
+.output_png,
+.output_jpeg,
+.jp-OutputArea-output img {
+    border-radius: 15px !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15) !important;
+}
+
+/* ===== Scrollbar ===== */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3b82f6;
+    border-radius: 10px;
+}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jupyter Notebook — generated with runcell</title>
